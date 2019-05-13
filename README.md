@@ -29,3 +29,11 @@ MariaDB [backend_developer]> SELECT * FROM ResourceAction WHERE name LIKE '%life
 +-------------+------------------+---------------------------------------------------------------+-------------------------+--------------+
 6 rows in set (0.01 sec)
 ```
+
+## How To Test
+
+1. Build and deploy the portlet to your (development) server.
+1. Create a new regular user and add it to to the default site (e.g. Liferay DXP)
+1. Login as regular user.
+1. The *Control-Panel Portlet* is displayed in the Control-Panel and visible to the regular user
+1. If the regular user clicks of the respective control panel entry, the *Control-Panel Portlet* is displayed to the user.
